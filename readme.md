@@ -1,50 +1,50 @@
-using formsubmit for mails:
-```html
-<form action="https://formsubmit.co/your-email@example.com" method="POST">
-    <label>Name:</label>
-    <input type="text" name="name" required>
+# Belgian Education Academy
 
-    <label>Email:</label>
-    <input type="email" name="email" required>
+Welcome to the Belgian Education Academy! We are a dedicated course provider located near Ghent and Brussels, offering Erasmus+ courses tailored for teachers and educational staff. Our mission is to enhance teaching skills by providing immersive experiences within the Belgian educational system.
 
-    <label>Message:</label>
-    <textarea name="message" required></textarea>
+## 🌍 About the Academy
 
-    <button type="submit">Send Message</button>
-</form>
-```
+Our programs are designed to provide comprehensive insights into Belgian education:
 
-testen site:
+- **Introduction to Primary Education in Flanders**: Visit local primary schools, engage with movement-based learning, and explore outdoor educational practices.
+- **Cultural Integration Workshops**: Participate in workshops that blend cultural experiences with pedagogical strategies, including city trips to Antwerp and Brussels.
+- **Customized Group Sessions**: For groups of six or more, we offer the flexibility to suggest your own dates and tailor the course content to meet your specific needs.
+
+## 📝 Enrollment Process
+
+1. **Secure Funding**: Apply for KA1 funding through your national agency. This funding typically covers travel costs, accommodation, and the course fee of €440.
+2. **Enroll**: Once your grant is approved, complete our [enrollment form](https://tally.so/) via Tally. We will contact you as soon as we have enough participants for your chosen course.
+
+## 🎓 What to Expect
+
+- **Duration**: Each course spans five days, from Monday to Friday.
+- **Certification**: Participants receive a certificate and Europass upon completion.
+- **Cultural Excursions**: Courses include a day trip to Brussels or Bruges, with free time to explore these historic cities.
+- **Local Expertise**: Our courses are led by professional local teachers, ensuring an authentic and enriching experience.
+- **Transportation**: All necessary transportation during the course, including train journeys, is provided.
+
+## 🏗️ Tech Stack
+
+This is a **static site** built with:
+- **HTML, CSS, JavaScript** for the frontend.
+- **Tally-formsubmit** for form submissions and enrollment handling.
+- **google docs** for storing the submissions of enrollement
+
+## 🛠️ Local Development
+
+If you want to test this site locally, run:
+
 ```bash
-python -m http.server 8000 
+python -m http.server 8000
 ```
 
-forms fix:
-```html
-<form action="https://formsubmit.co/robbe.vanherpe@outlook.com" method="POST" style="max-width: 400px; margin: auto; padding: 20px; background: #f9f9f9; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-    <label style="display: block; margin-bottom: 5px; font-weight: bold;">Name:</label>
-    <input type="text" name="name" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
+Then, open `http://localhost:8000/` in your browser.
 
-    <label style="display: block; margin-bottom: 5px; font-weight: bold;">Email:</label>
-    <input type="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
+## ✉️ Contact Us
 
-    <label style="display: block; margin-bottom: 5px; font-weight: bold;">Message:</label>
-    <textarea name="message" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+For more information or any inquiries:
 
-    <button type="submit" style="width: 100%; padding: 10px; background: #0056b3; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">Send Message</button>
+- **Email**: [info@belgianeducationacademy.be](mailto:info@belgianeducationacademy.be)
+- **Phone**: +32 123 45 67 89
 
-    <!-- Disable CAPTCHA -->
-    <input type="hidden" name="_captcha" value="false">
-</form>
-```
-
-
-use Tally form
-
-```html
-<iframe data-tally-src="https://tally.so/embed/3xlzQy?hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1661" frameborder="0" marginheight="0" marginwidth="0" title="Enroll courses"></iframe>
-<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
-```
-
-link to google cheat tally form:
-https://docs.google.com/spreadsheets/d/107DPm2YwoWerqYcqLVBgUzXqFl8ShYxr4gS7swxoOXM
+We look forward to welcoming you to Belgium and embarking on this educational journey together! 🚀
