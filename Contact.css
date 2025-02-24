@@ -1,6 +1,6 @@
  .u-section-1 {
   background-image: none;
-  min-height: 1003px;
+  min-height: 1143px;
 }
 
 .u-section-1 .u-shape-1 {
@@ -46,16 +46,16 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 0;
+  margin: 65px 0 0;
 }
 
 .u-section-1 .u-text-2 {
   font-size: 1.25rem;
-  margin: 20px 0 0;
+  margin: 29px 0 0;
 }
 
 .u-section-1 .u-form-1 {
-  margin: 46px 0 0;
+  margin: 12px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -76,7 +76,7 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    min-height: 999px;
+    min-height: 1075px;
   }
 
   .u-section-1 .u-shape-1 {
